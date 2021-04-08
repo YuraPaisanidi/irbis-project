@@ -135,6 +135,7 @@
 	left: 0
 	padding: 20px 0
 	background-color: $light
+	z-index: 100
 
 
 	&__container
@@ -148,7 +149,7 @@
 		img
 			width: 100%
 			height: auto
-	
+
 	&__nav
 		width: 450px
 		display: flex
@@ -269,6 +270,7 @@
 		padding-bottom: 150px
 		display: grid
 		grid-template-columns: 1fr 1fr 1fr 1fr
+		z-index: 0
 
 		+r(992)
 			grid-template-columns: 1fr 1fr
@@ -416,6 +418,7 @@
 			p
 				font-size: 19px
 				max-width: 150px
+				padding-bottom: 1px
 
 				+r(576)
 					font-size: 16px
